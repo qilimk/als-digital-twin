@@ -52,8 +52,8 @@ CONFIG = {
     'batch_size': 64,
     'learning_rate': 1e-3,
     'weight_decay': 1e-5,
-    'epochs': 50,
-    'patience': 10,
+    'epochs': 20,
+    'patience': 7,
     'state_loss_weight': 1.0,
     'survival_loss_weight': 1.0,
 
