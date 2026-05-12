@@ -1,0 +1,19 @@
+{
+  "data_dir": "./cleaned_data_new",
+  "output_dir": "./trained_models_new",
+  "test_size": 0.15,
+  "val_size": 0.15,
+  "num_intervals": 24,
+  "interval_width_days": 30,
+  "min_score_drop": 1.0,
+  "d_model": 128,
+  "n_heads": 4,
+  "n_layers": 3,
+  "dropout": 0.1,
+  "batch_size": 64,
+  "learning_rate": 0.0005,
+  "weight_decay": 0.0001,
+  "epochs": 40,
+  "patience": 10,
+  "device": "cuda"
+}
